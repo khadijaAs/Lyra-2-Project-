@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="343.0" prefWidth="501.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane prefHeight="347.0" prefWidth="501.0">
+         <children>
+            <VBox layoutX="31.0" layoutY="35.0" prefHeight="293.0" prefWidth="450.0">
+               <children>
+                  <Label prefHeight="39.0" prefWidth="453.0" text="1-choose the password you want to encrypt and write it in the text field" textFill="#323232">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label prefHeight="35.0" prefWidth="450.0" text="2-choose the level of security you want (higher level of security " textFill="#323232">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font></Label>
+                  <Label prefHeight="36.0" prefWidth="453.0" text="means more sophisticated algorithm)">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font></Label>
+                  <Label prefHeight="37.0" prefWidth="454.0" text="3-it's all click GO to get your encrypted password">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font></Label>
+                  <Label prefHeight="41.0" prefWidth="450.0" />
+                  <Label prefHeight="37.0" prefWidth="457.0" />
+                  <Label prefHeight="39.0" prefWidth="450.0" />
+               </children>
+            </VBox>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

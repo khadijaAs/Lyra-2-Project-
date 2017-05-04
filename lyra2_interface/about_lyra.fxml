@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="334.0" prefWidth="535.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.111">
+    
+     <children>
+      <VBox layoutX="30.0" layoutY="33.0" prefHeight="269.0" prefWidth="460.0" spacing="15.0">
+         <children>
+            <Label prefHeight="17.0" prefWidth="523.0" text="Lyra2 is a Key Derivation Function (KDF), also called  LabelPassword ">
+               <VBox.margin>
+                  <Insets bottom="10.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label prefHeight="17.0" prefWidth="470.0" text=" Hashing Schemes (PHS), that received a special recognition during">
+               <VBox.margin>
+                  <Insets bottom="10.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label prefHeight="17.0" prefWidth="518.0" text=" the Password Hashing  Competition in July 2015.[1] It was designed">
+               <VBox.margin>
+                  <Insets bottom="10.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label text=" by Marcos A. Simplicio Jr, Leonardo C. Almeida, Ewerton R. Andrade, ">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label prefHeight="17.0" prefWidth="489.0" text=" Paulo C. F. dos Santos, and Paulo   S. L. M.Barreto from Escola Politécnica">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font></Label>
+            <Label text=" da Universidade de São Paulo">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+         </children>
+         <padding>
+            <Insets top="20.0" />
+         </padding>
+      </VBox>
+   </children>
+   
+</AnchorPane>
